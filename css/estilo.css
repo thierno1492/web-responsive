@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color: white;
+    background-color: #100a18;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='church-on-sunday' fill='%23e80f8c' fill-opacity='0.1'%3E%3Cpath d='M77.17 0H80v2.83l-.1.1A39.9 39.9 0 0 1 74.64 20a39.9 39.9 0 0 1 5.24 17.06l.11.11v2.89c-.01 6.9-1.8 13.79-5.35 19.94A39.96 39.96 0 0 1 80 79.94V80h-2.83L66.84 69.66a39.83 39.83 0 0 1-24.1 10.25l.09.09h-5.66l.1-.1c-8.7-.58-17.22-4-24.1-10.23L2.82 80H0V79.94c.01-6.9 1.8-13.8 5.35-19.94A39.96 39.96 0 0 1 0 40.06V37.17l.1-.1A39.9 39.9 0 0 1 5.36 20 39.9 39.9 0 0 1 .1 2.94L0 2.83V0h2.83l-.1.1a39.83 39.83 0 0 1 24.1 10.24L37.18 0H40c0 6.92-1.78 13.83-5.35 20A39.96 39.96 0 0 1 40 40c0-6.92 1.78-13.83 5.35-20A39.96 39.96 0 0 1 40 0h2.83l10.33 10.34A39.83 39.83 0 0 1 77.26.09L77.17 0zm.77 77.94c-.3-5.52-1.8-11-4.49-16a40.18 40.18 0 0 1-5.17 6.34l9.66 9.66zm-12.52-9.7l-6.83-6.83-5.46 5.46-1.41 1.41-9.66 9.66c8.4-.45 16.69-3.68 23.36-9.7zm-23.07 6.58l7.99-7.98a40.05 40.05 0 0 1-3.79-4.9 37.88 37.88 0 0 0-4.2 12.88zM47.68 60a37.98 37.98 0 0 0 4.07 5.42L57.17 60l-5.42-5.42A38 38 0 0 0 47.68 60zm2.66-6.84a40.06 40.06 0 0 0-3.79 4.9 37.88 37.88 0 0 1-4.2-12.88l7.99 7.98zm1.38-1.44l1.41 1.41 5.46 5.46 6.83-6.84a37.85 37.85 0 0 0-23.36-9.7l9.66 9.67zM60 60l6.87 6.87A38.1 38.1 0 0 0 72.32 60a38.11 38.11 0 0 0-5.45-6.87L60 60zm-14.65 0a39.9 39.9 0 0 0-5.24 17.06l-.11.11-.1-.1A39.9 39.9 0 0 0 34.64 60a39.9 39.9 0 0 0 5.24-17.06l.11-.11.1.1A39.9 39.9 0 0 0 45.36 60zm9.23-48.25a37.85 37.85 0 0 1 23.36-9.7l-9.66 9.67-1.41 1.41-5.46 5.46-6.83-6.84zm13.67 13.67L62.83 20l5.42-5.42A38 38 0 0 1 72.32 20a37.98 37.98 0 0 1-4.07 5.42zm5.2-3.47a40.05 40.05 0 0 1-3.79 4.89l7.99 7.98c-.61-4.45-2.01-8.82-4.2-12.87zm-6.58 4.92l1.41 1.41 9.66 9.66a37.85 37.85 0 0 1-23.36-9.7l6.83-6.83 5.46 5.46zM53.13 13.13L60 20l-6.87 6.87A38.11 38.11 0 0 1 47.68 20a38.1 38.1 0 0 1 5.45-6.87zm-1.41-1.41l-9.66-9.66c.3 5.52 1.8 11 4.49 16a40.18 40.18 0 0 1 5.17-6.34zm-9.66 26.22c.3-5.52 1.8-11 4.49-16a40.18 40.18 0 0 0 5.17 6.34l-9.66 9.66zm26.22 13.78l9.66-9.66c-.3 5.52-1.8 11-4.49 16a40.18 40.18 0 0 0-5.17-6.34zm8.98-11.81L66.84 50.34a39.83 39.83 0 0 0-24.1-10.25l10.42-10.43a39.83 39.83 0 0 0 24.1 10.25zm-7.6-26.75a40.06 40.06 0 0 1 3.79 4.9 37.88 37.88 0 0 0 4.2-12.88l-7.99 7.98zm-31.72 28.9c-8.4.45-16.69 3.68-23.36 9.7l6.83 6.83 5.46-5.46 1.41-1.41 9.66-9.66zM22.83 60l5.42 5.42c1.54-1.7 2.9-3.52 4.07-5.42a38 38 0 0 0-4.07-5.42L22.83 60zm5.45 8.28l-1.41-1.41-5.46-5.46-6.83 6.84a37.85 37.85 0 0 0 23.36 9.7l-9.66-9.67zm9.37 6.54l-7.99-7.98a40.05 40.05 0 0 0 3.79-4.9 37.88 37.88 0 0 1 4.2 12.88zM20 60l-6.87-6.87A38.11 38.11 0 0 0 7.68 60a38.11 38.11 0 0 0 5.45 6.87L20 60zm17.26-19.9L26.84 29.65a39.83 39.83 0 0 1-24.1 10.25l10.42 10.43a39.83 39.83 0 0 1 24.1-10.25zm-35.2 1.96l9.66 9.66a40.18 40.18 0 0 0-5.17 6.33c-2.7-5-4.2-10.47-4.5-16zm4.49 19.89c-2.7 5-4.2 10.47-4.5 16l9.67-9.67a40.18 40.18 0 0 1-5.17-6.33zm31.1-16.77c-.61 4.45-2.01 8.82-4.2 12.87a40.06 40.06 0 0 0-3.79-4.89l7.99-7.98zm-4.2-23.23c2.7 5 4.2 10.47 4.5 16l-9.67-9.67c1.97-1.97 3.7-4.1 5.17-6.33zm-14.86-.54l6.83 6.84a37.85 37.85 0 0 1-23.36 9.7l9.66-9.67 1.41-1.41 5.46-5.46zm-8.25 5.43l-7.99 7.98c.61-4.45 2.01-8.82 4.2-12.87a40.04 40.04 0 0 0 3.79 4.89zm1.41-1.42A37.99 37.99 0 0 1 7.68 20a38 38 0 0 1 4.07-5.42L17.17 20l-5.42 5.42zm-5.2-7.37a40.04 40.04 0 0 1 3.79-4.89L2.35 5.18c.61 4.45 2.01 8.82 4.2 12.87zm6.58-4.92l-1.41-1.41-9.66-9.66a37.85 37.85 0 0 1 23.36 9.7l-6.83 6.83-5.46-5.46zm13.74 13.74L20 20l6.87-6.87A38.1 38.1 0 0 1 32.32 20a38.1 38.1 0 0 1-5.45 6.87zm6.58-8.82a40.18 40.18 0 0 0-5.17-6.33l9.66-9.66c-.3 5.52-1.8 11-4.49 16z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+font-size: 16px;
+font-family: 'Oswald', sans-serif;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*estilo de navigacion   */
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 50px;
+}
+/*nav iz*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a:hover{
+ padding: 2px;
+}
+.nav-main ul li a:hover{
+border-bottom: 2px solid #ffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+
+}
+.nav-main ul.nav-menu li{
+    padding: 20px;
+    font-size: 14px;
+}
+.nav-main ul.nav-menu-right{
+    margin-right: 60px;
+}
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.5rem;
+    display: none;
+}
+/*shocase  */
+hr{
+    margin: 10px 0;
+}
+.showcase{
+    width: 100%;
+    height: 550px;
+    background: url('../images/image1.jpg') no-repeat  center center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border:0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    font-size: 15px;
+    border:1px solid white;
+    margin: 10px 0;
+}
+.btn:hover{
+    opacity: .7;
+}
+.showcase h2,
+.showcase p{
+    margin-bottom: 10px;
+}
+/*new cards*/
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.news-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.news-cards a:hover{
+    text-decoration: underline;
+    padding: 2px;
+    
+}
+/*cards banner one*/
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background: url('../images/img-section.jpg');
+    margin-bottom: 40px;
+
+}
+.cards-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 40px;
+    color: white;
+}
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+
+}
+
+/*cards banner two*/
+.cards-banner-two{
+    background: url('../images/Rectangle.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+}
+
+.cards-banner-two .content{
+    width: 50%;
+    padding: 100px 0 0 30px;
+    
+}
+/*social*/
+.social{
+    margin: 50px;
+}
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+    margin: 0 30px;
+}
+.links a i{
+    font-size: 3rem;
+}
+/*footer-links*/
+.footer-links{
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer-container ul{
+    margin: 0 auto;
+}
+.footer-container ul{
+    line-height: 2.8;
+}
+.footer{
+    background: #2f3f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width:700px){
+
+    .menu-btn {
+        display: block;
+
+    }
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform:translateX(-400px);
+        transition: .5 ease-in-out;
+    }
+    
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-20px);
+    }
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+    .news-cards{
+    
+    grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+        width: 80%;
+    }
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px){
+    body{
+        background:blue
+    }
+    .news-cards{
+        grid-template-columns: 1fr;
+    }
+    .news-cards img{
+        height: 250px;
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content{
+        width: 100%;
+        padding: 60px 20px;
+    }
+    .footer-links .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
